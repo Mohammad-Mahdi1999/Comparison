@@ -15,6 +15,7 @@ void main()
 		cout << "The bigger number is " << num2 << "!" << endl;
 	else 
 		cout << "The bigger number is " << num1 << "!" << endl;
-	system("pause");
+	cin.get();
+	cin.ignore();
 }
 //Created by /%++;; Mohammad-Mahdi Farah-bakhsh ;;++%\
