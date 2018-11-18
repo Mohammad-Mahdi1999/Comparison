@@ -1,20 +1,21 @@
 // In the name of God !
 //Comparison
-//V1.0
+//V2.0
 #include "stdafx.h"
 #include <iostream>
 using namespace std;
 
 void main()
 {
-	int num1, num2;
+	int num, i,Max=-100000;
 	cout << "Enter two numbers :" << endl;
-	cin >> num1;
-	cin >> num2;
-	if (num1 < num2)
-		cout << "The bigger number is " << num2 << "!" << endl;
-	else 
-		cout << "The bigger number is " << num1 << "!" << endl;
+	for (i = 1; i <= 2; i++)
+	{
+		cin >> num;
+			if (num > Max)
+		Max = num;
+	}
+	cout << Max << " is more ! "<< endl;
 	cin.get();
 	cin.ignore();
 }
