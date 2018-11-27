@@ -1,4 +1,3 @@
 # Comparison
 Comparison the two numbers!
-Open Debug folder
-open Comparison.exe
+v 1.7 : Using Array 

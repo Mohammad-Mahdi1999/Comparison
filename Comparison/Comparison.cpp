@@ -1,21 +1,23 @@
 // In the name of God !
 //Comparison
-//V3.0
+//V1.7
 #include "stdafx.h"
 #include <iostream>
 using namespace std;
 
 void main()
 {
-	int num, i=1,Max=-10000000;
+	int num[50], i=0,Max;
 	cout << "Enter two numbers :" << endl;
-	while (i<=2)
+	while (i<2)
 	{
-		cin >> num;
-		if (num > Max)
-			Max = num;
+		cin >> num[i];
 		i++;
 	}
+	Max = num[0];
+	for (i=0;i<2;i++)
+		if (num[i] > Max)
+			Max = num[i];
 	cout << Max << " is more ! "<< endl;
 	cin.get();
 	cin.ignore();
